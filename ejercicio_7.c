@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 int main()
 {
@@ -11,32 +12,32 @@ int main()
 	{
 		case 1:
 			printf("El primer programa:\n");
-			fopen("ejercicio_1.c","r");
+			system("./ejercicio_1");
 			break;
 
 		case 2:
 			printf("El segundo programa:\n");
-			fopen("ejercicio_2.c","r");
+			system("./ejercicio_2");
 			break;
 
 		case 3:
 			printf("El tercer programa:\n");
-			fopen("ejercicio_3.c","r");
+			system("ejercicio_3");
 			break;
 
 		case 4:
 			printf("El cuarto programa:\n");
-			fopen("ejercicio_4.c","r");
+			system("ejercicio_4");
 			break;
 
 		case 5:
 			printf("El quinto programa:\n");
-			fopen("ejercicio_5.c","r");
+			system("./ejercicio_5);
 			break;
 
 		case 6:
 			printf("El sexto programa:\n");
-			fopen("ejercicio_6","r");
+			system("./ejercicio_6");
 			break;
 	}
 	return 0;
