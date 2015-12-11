@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 	getchar();
 	/*para obtener la largura total de la palabra */
 	len=strlen(str);
-	printf("strlen(str): %d \0 \n", len );
+	printf("strlen(str): %d\n", len );
 	
 	return 0;
 }
